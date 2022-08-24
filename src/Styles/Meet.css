@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital@0;1&display=swap');
+
+.Meet {
+    padding-top: 5%;
+}
+
+
+.greeting {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    border: 3px solid rgb(255, 125, 147);
+    max-width: 30%;
+    margin: 0 auto;
+}
+
+.who-i-am {
+    display: flex;
+    padding-top: 5%;
+}
+
+.who-i-am img{
+    display: block;
+    max-width: 50%;
+    max-height: 600px;
+    padding-left: 25%;
+}
+
+.who-i-am p {
+    padding-left: 10%;
+    text-align: center;
+    padding-top: 2%;
+    padding-right: 15%;
+    color: rgb(255, 125, 147);
+    font-size: 25px;
+    max-width: 40%;
+} 
+
+
+@media screen and (max-width: 480px) {
+    .greeting {
+        font-size: 25px;
+        max-width: 100%;
+    }
+
+    .who-i-am {
+        flex-direction: column;
+    }
+
+    .who-i-am img{
+        max-width: 100%;
+        height: 400px;
+        margin: auto;
+        padding-left: 20%;
+        padding-right: 20%;    
+    }
+
+    .who-i-am p{
+        max-width: 100%;
+        font-size: 20px;
+        padding-top: 5%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital@0;1&display=swap');
+
+.Welcome {
+    background-color: black;
+    color: white;
+    background-image: url("../assets/Background.jpg");
+    padding-top: 5%;
+    padding-bottom: 10%;
+    background-size: cover;
+}
+
+.text {
+    max-height: 100%;
+    max-width: 50%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+    box-sizing: content-box;
+    display: block;
+    padding-right: 20%;
+}
+
+.text h2 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    font-size: 2.5vw;
+    width: 60%;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    padding-top: 25%;
+    padding-left: 15%;
+    float: left;
+}
+
+.text h3 {
+    color: black;
+    font-size: 2.5vw;
+    width: 75%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15%;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
+    float: left;
+}
+
+.video {
+    max-width: 80%;
+    display: flex;
+    padding-left: 10%;
+}
+
+.video img {
+    z-index: 1;
+    box-sizing: content-box;
+}
+
+.main_vid {
+    float: right;
+    position: absolute;
+    margin: 0 auto;
+    padding-left: 80px;
+}
+
+.text a {
+    text-decoration: none;
+    color: black;
+}
+
+.text a:hover {
+    font-size: 80px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .Welcome {
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .text {
+        max-width: 100%;
+        margin: auto;
+        padding-right: 0;
+    }
+
+    .text h2 {
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
+        color: black;
+        font-size: 7vw;
+        width: 80%;
+        height: 100%;
+        align-items: center;
+        margin: 0 auto;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        padding-top: 25%;
+        margin: 0 auto;
+    }
+
+    .text h3 {
+        color: black;
+        font-size: 9vw;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 15%;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
+        float: left;
+    }
+
+    .video {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+        padding-top: 20%;
+    }
+
+    .video img {
+        width: 300px;
+        height: 490px;
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    .video .main_vid {
+        margin: auto;
+        width: 300px;
+        height: 455px;
+        padding-left: 0;
+    }
+
+    .text a:hover {
+        color: blue;
+        font-size: 35px;
+    }
+
+}
