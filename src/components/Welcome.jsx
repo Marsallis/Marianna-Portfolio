@@ -1,7 +1,6 @@
 import React from "react";
 import "../Styles/Welcome.css";
 import template from "../assets/iphone_video_template.webp";
-import video1 from "../assets/video1.mp4"
 
 const Welcome = () => {
     return(
@@ -12,8 +11,7 @@ const Welcome = () => {
             </div>
             <div className="video">
                 <img src={template} className="template" width="540" height="870" alt="template" class="silhouette"/>
-                <video className="main_vid" width="455" height="850" autoPlay muted loop>
-                <source src={video1} type="video/mp4"></source>
+                <video src="/Videos/video1.mp4" className="main_vid" width="455" height="850" autoPlay muted loop type="video/mp4">
                 Your browser does not support the video tag.
                 </video>
             </div>
