@@ -1,13 +1,13 @@
 import React from "react";
 import "../Styles/PicVid.css";
-import video1 from "../assets/video1.mp4";
-import video2 from "../assets/video2.mp4";
-import video3 from "../assets/video3.mp4";
-import video4 from "../assets/video4.mp4";
-import video5 from "../assets/video5.mp4";
-import video6 from "../assets/video6.mp4";
-import video7 from "../assets/video7.mp4";
-import video8 from "../assets/video8.mp4";
+import video1 from "../../public/Videos/video1.mp4";
+import video2 from "../../public/Videos/video2.mp4";
+import video3 from "../../public/Videos/video3.mp4";
+import video4 from "../../public/Videos/video4.mp4";
+import video5 from "../../public/Videos/video5.mp4";
+import video6 from "../../public/Videos/video6.mp4";
+import video7 from "../../public/Videos/video7.mp4";
+import video8 from "../../public/Videos/video8.mp4";
 
 const PicVid = () => {
     return(
