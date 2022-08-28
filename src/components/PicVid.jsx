@@ -12,7 +12,7 @@ import video8 from "../assets/video8.mp4";
 const PicVid = () => {
     return(
         <div className="pvcontainer">
-            <h2>PAST VIDEO PROJECTS</h2>
+            <h2>PAST VIDEO PROJECT</h2>
             <div className="videos_section1">
                 <div className="video1">
                     <video playsinline width="300" height="500"controls>
