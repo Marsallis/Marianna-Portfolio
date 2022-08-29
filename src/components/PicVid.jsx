@@ -4,10 +4,10 @@ import "../Styles/PicVid.css";
 const PicVid = () => {
     return(
         <div className="pvcontainer">
-            <h2>PAST VIDEO PROJECT</h2>
+            <h2>PAST VIDEO PROJECTS</h2>
             <div className="videos_section1">
                 <div className="video1">
-                    <video src="Videos/video1.mp4" className="video1" width="300" height="500" controls muted type="video/mp4">
+                    <video src="Videos/video1.mov" className="video1" width="300" height="500" controls muted type="video/mov">
                     Your browser does not support the video tag.
                     </video>
                 </div>
