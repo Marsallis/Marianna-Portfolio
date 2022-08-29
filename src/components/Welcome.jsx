@@ -2,6 +2,7 @@ import React from "react";
 import "../Styles/Welcome.css";
 import template from "../assets/iphone_video_template.webp";
 import video1 from "../assets/Videos/video1.mov";
+import video1w from "../assets/Videos/video1w.webm";
 
 const Welcome = () => {
     return(
@@ -12,8 +13,10 @@ const Welcome = () => {
             </div>
             <div className="video">
                 <img src={template} className="template" width="540" height="870" alt="template" class="silhouette"/>
-                <video src={video1} className="main_vid" width="455" height="850" alt="" autoPlay muted loop type="video/mp3">
-                Your browser does not support the video tag.
+                <video className="main_vid" width="455" height="850" alt="" autoPlay muted loop>
+                    <source src={video1} type="video/mov"/>
+                    <source src={video1w} type="video/webm"/>
+                    Your browser does not support the video tag.
                 </video>
             </div>
         </div>
