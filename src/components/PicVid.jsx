@@ -31,21 +31,21 @@ const PicVid = () => {
                 </div>
                 <div className="video2">
                     <video width="300" height="500" autoPlay controls muted>
-                        <source src={video2}  type="video/mov"/>
+                        <source src={video2}  type="video/mp4"/>
                         <source src={video2w} type="video/webm"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video3">
                     <video width="300" height="500" autoPlay controls muted >
-                        <source src={video3}  type="video/mov"/>
+                        <source src={video3}  type="video/mp4"/>
                         <source src={video3w} type="video/webm"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video4">
                     <video width="300" height="500" autoPlaycontrols muted>
-                        <source src={video4}  type="video/mov"/>
+                        <source src={video4}  type="video/mp4"/>
                         <source src={video4w} type="video/webm"/>
                         Your browser does not support the video tag.
                     </video>
@@ -54,28 +54,28 @@ const PicVid = () => {
             <div className="videos_section2">
                 <div className="video5">
                     <video width="300" height="500" autoPlay controls muted >
-                        <source src={video5}  type="video/mov"/>
+                        <source src={video5}  type="video/mp4"/>
                         <source src={video5w} type="video/webm"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video6">
                     <video width="300" height="500" autoPlay controls muted >
-                        <source src={video6}  type="video/mov"/>
+                        <source src={video6}  type="video/mp4"/>
                         <source src={video6w} type="video/webm"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video7">
                     <video width="300" height="500" autoPlay controls muted >
-                        <source src={video7}  type="video/mov"/>
+                        <source src={video7}  type="video/mp4"/>
                         <source src={video7w} type="video/webm"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video8">
                     <video width="300" height="500" autoPlay controls muted >
-                        <source src={video8}  type="video/mov"/>
+                        <source src={video8}  type="video/mp4"/>
                         <source src={video8w} type="video/webm"/>
                         Your browser does not support the video tag.
                     </video>
