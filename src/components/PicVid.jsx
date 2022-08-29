@@ -1,6 +1,5 @@
 import React from "react";
 import "../Styles/PicVid.css";
-import ReactPlayer from "react-player";
 
 const PicVid = () => {
     return(
@@ -8,51 +7,51 @@ const PicVid = () => {
             <h2>PAST VIDEO PROJECT</h2>
             <div className="videos_section1">
                 <div className="video1">
-                    <ReactPlayer url="Videos/video1.mp3" className="video1" playsinline width="300" height="500" controls muted type="video/mp3">
+                    <video src="Videos/video1.mp4" className="video1" width="300" height="500" controls muted type="video/mp4">
                     Your browser does not support the video tag.
-                    </ReactPlayer>
+                    </video>
                 </div>
                 <div className="video2">
-                    <ReactPlayer url="Videos/video2.mp3" className="video2" playsinline width="300" height="500"controls muted type="video/mp3">
+                    <video src="Videos/video2.mp4" className="video2" width="300" height="500"controls muted type="video/mp4">
                     Your browser does not support the video tag.
-                    </ReactPlayer>
+                    </video>
                 </div>
                 <div className="video3">
-                    <ReactPlayer url="Videos/video3.mp3" className="video3" playsinline width="300" height="500"controls muted type="video/mp3">
+                    <video src="Videos/video3.mp4" className="video3" width="300" height="500"controls muted type="video/mp4">
                     Your browser does not support the video tag.
-                    </ReactPlayer>
+                    </video>
                 </div>
                 <div className="video4">
-                    <ReactPlayer 
-                        url="Videos/video4.mp3" 
+                    <video 
+                        src="Videos/video4.mp4" 
                         className="video4" 
-                        playsinline width="300" 
+                        width="300" 
                         height="500" 
-                        controls muted type="video/mp3">
+                        controls muted type="video/mp4">
                         Your browser does not support the video tag.
-                    </ReactPlayer>
+                    </video>
                 </div>
             </div>
             <div className="videos_section2">
                 <div className="video5">
-                    <ReactPlayer url="Videos/video5.mp3" className="video5" playsinline width="300" height="500"controls muted type="video/mp3">
+                    <video src="Videos/video5.mp4" className="video5"width="300" height="500"controls muted type="video/mp4">
                     Your browser does not support the video tag.
-                    </ReactPlayer>
+                    </video>
                 </div>
                 <div className="video6">
-                    <ReactPlayer url="Videos/video6.mp3" className="video6" playsinline width="300" height="500"controls muted type="video/mp3">
+                    <video src="Videos/video6.mp4" className="video6" width="300" height="500"controls muted type="video/mp4">
                     Your browser does not support the video tag.
-                    </ReactPlayer>
+                    </video>
                 </div>
                 <div className="video7">
-                    <ReactPlayer url="Videos/video7.mp3" className="video7" playsinline width="300" height="500"controls muted type="video/mp3">
+                    <video src="Videos/video7.mp4" className="video7" width="300" height="500"controls muted type="video/mp4">
                     Your browser does not support the video tag.
-                    </ReactPlayer>
+                    </video>
                 </div>
                 <div className="video8">
-                    <ReactPlayer url="Videos/video8.mp3" className="video8" playsinline width="300" height="500"controls muted type="video/mp3">
+                    <video src="Videos/video8.mp4" className="video8" width="300" height="500"controls muted type="video/mp4">
                     Your browser does not support the video tag.
-                    </ReactPlayer>
+                    </video>
                 </div>
             </div>
         </div>

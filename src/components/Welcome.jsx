@@ -11,7 +11,7 @@ const Welcome = () => {
             </div>
             <div className="video">
                 <img src={template} className="template" width="540" height="870" alt="template" class="silhouette"/>
-                <video src="/Videos/video1.mp4" className="main_vid" width="455" height="850" autoPlay muted loop type="video/mp4">
+                <video src="/Videos/video1.mp3" className="main_vid" width="455" height="850" autoPlay muted loop type="video/mp3">
                 Your browser does not support the video tag.
                 </video>
             </div>
