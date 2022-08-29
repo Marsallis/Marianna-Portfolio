@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Welcome.css";
 import template from "../assets/iphone_video_template.webp";
 import video1 from "../assets/Videos/video1.mov";
-import video1w from "../assets/Videos/video1w.webm";
+import video1w from "../assets/Videos/video1.webm";
 
 const Welcome = () => {
     return(
