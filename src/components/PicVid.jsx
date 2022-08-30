@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles/PicVid.css";
-import video1 from "../assets/video1.mov";
+import video1 from "../assets/video1.mp4";
 import video1w from "../assets/video1.webm";
 import video2 from "../assets/video2.mp4";
 import video2w from "../assets/video2.webm";
@@ -25,7 +25,7 @@ const PicVid = () => {
                 <div className="video1">
                     <video width="300" height="500" autoPlay controls muted>
                         <source src={video1w}  type="video/webm"/>
-                        <source src={video1} type="video/mov"/>
+                        <source src={video1} type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
