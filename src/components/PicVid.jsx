@@ -1,21 +1,21 @@
 import React from "react";
 import "../Styles/PicVid.css";
-import video1 from "../assets/Videos/video1.mov";
-import video1w from "../assets/Videos/video1.webm";
-import video2 from "../assets/Videos/video2.mp4";
-import video2w from "../assets/Videos/video2.webm";
-import video3 from "../assets/Videos/video3.mp4";
-import video3w from "../assets/Videos/video3.webm";
-import video4 from "../assets/Videos/video4.mp4";
-import video4w from "../assets/Videos/video4.webm";
-import video5 from "../assets/Videos/video5.mp4";
-import video5w from "../assets/Videos/video5.webm";
-import video6 from "../assets/Videos/video6.mp4";
-import video6w from "../assets/Videos/video6.webm";
-import video7 from "../assets/Videos/video7.mp4";
-import video7w from "../assets/Videos/video7.webm";
-import video8 from "../assets/Videos/video8.mp4";
-import video8w from "../assets/Videos/video8.webm";
+import video1 from "../assets/video1.mov";
+import video1w from "../assets/video1.webm";
+import video2 from "../assets/video2.mp4";
+import video2w from "../assets/video2.webm";
+import video3 from "../assets/video3.mp4";
+import video3w from "../assets/video3.webm";
+import video4 from "../assets/video4.mp4";
+import video4w from "../assets/video4.webm";
+import video5 from "../assets/video5.mp4";
+import video5w from "../assets/video5.webm";
+import video6 from "../assets/video6.mp4";
+import video6w from "../assets/video6.webm";
+import video7 from "../assets/video7.mp4";
+import video7w from "../assets/video7.webm";
+import video8 from "../assets/video8.mp4";
+import video8w from "../assets/video8.webm";
 
 const PicVid = () => {
     return(
