@@ -23,28 +23,28 @@ const PicVid = () => {
             <h2>PAST VIDEO PROJECTS</h2>
             <div className="videos_section1">
                 <div className="video1">
-                    <video width="300" height="500" autoPlay controls muted>
+                    <video width="300" height="500" controls>
                         <source src={video1w}  type="video/webm"/>
                         <source src={video1} type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video2">
-                    <video width="300" height="500" autoPlay controls muted>
+                    <video width="300" height="500" controls>
                         <source src={video2w} type="video/webm"/>
                         <source src={video2}  type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video3">
-                    <video width="300" height="500" autoPlay controls muted >
+                    <video width="300" height="500" controls>
                         <source src={video3w} type="video/webm"/>
                         <source src={video3}  type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video4">
-                    <video width="300" height="500" autoPlaycontrols muted>
+                    <video width="300" height="500" controls>
                         <source src={video4w} type="video/webm"/>
                         <source src={video4}  type="video/mp4"/>
                         Your browser does not support the video tag.
@@ -53,28 +53,28 @@ const PicVid = () => {
             </div>
             <div className="videos_section2">
                 <div className="video5">
-                    <video width="300" height="500" autoPlay controls muted >
+                    <video width="300" height="500" controls>
                         <source src={video5w} type="video/webm"/>
                         <source src={video5}  type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video6">
-                    <video width="300" height="500" autoPlay controls muted > 
+                    <video width="300" height="500" controls> 
                         <source src={video6w} type="video/webm"/>
                         <source src={video6}  type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video7">
-                    <video width="300" height="500" autoPlay controls muted > 
+                    <video width="300" height="500" controls> 
                         <source src={video7w} type="video/webm"/>
                         <source src={video7}  type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
                 <div className="video8">
-                    <video width="300" height="500" autoPlay controls muted >
+                    <video width="300" height="500" controls>
                         <source src={video8w} type="video/webm"/>
                         <source src={video8}  type="video/mp4"/>
                         Your browser does not support the video tag.
