@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import "../Styles/Navbar.css";
 import logo from '../assets/Logo.png';
+import picvid from '../components/PicVid';
 
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
         <nav ref={navRef}>
           <a href="/">Home</a>
           <a href="/#">Meet The Creator</a>
-          <a href="/#">UGC Examples</a>
+          <a href={picvid}>UGC Examples</a>
           <a href="/#">Pricing</a>
           <a href="/#">Contact Me</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
