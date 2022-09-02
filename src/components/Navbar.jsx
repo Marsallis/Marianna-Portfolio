@@ -15,8 +15,8 @@ const Navbar = () => {
         <img src={logo} className="m-logo" width="250" alt="logo"/>
         <nav ref={navRef}>
           <a href="/">Home</a>
-          <a href="/#">Meet The Creator</a>
-          <a href="#video_section" class="btn" data-toggle="collapse">UGC Examples</a>
+          <a href="#meet" class="btn" onClick={showNavbar} data-toggle="collapse">Meet The Creator</a>
+          <a href="#video_section" class="btn" onClick={showNavbar} data-toggle="collapse">UGC Examples</a>
           <a href="/#">Pricing</a>
           <a href="/#">Contact Me</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>

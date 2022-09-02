@@ -4,7 +4,7 @@ import profilePic from '../assets/profilePic.PNG';
 
 const Meet = () => {
     return(
-        <div className="Meet">
+        <div className="Meet" id="meet">
             <h3 className="greeting">MEET YOUR CREATOR</h3>
             <div className="who-i-am">
                 <img src={profilePic} alt="" id="proPic"></img>
