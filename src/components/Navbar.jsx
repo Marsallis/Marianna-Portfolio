@@ -18,7 +18,7 @@ const Navbar = () => {
         <nav ref={navRef}>
           <a href="/">Home</a>
           <a href="/#">Meet The Creator</a>
-          <a href={picvid}>UGC Examples</a>
+          <a href="#video_section" class="btn" data-toggle="collapse">UGC Examples</a>
           <a href="/#">Pricing</a>
           <a href="/#">Contact Me</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
