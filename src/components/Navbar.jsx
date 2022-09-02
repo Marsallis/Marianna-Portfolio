@@ -3,8 +3,6 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import "../Styles/Navbar.css";
 import logo from '../assets/Logo.png';
-import picvid from '../components/PicVid';
-
 
 const Navbar = () => {
   const navRef = useRef();
