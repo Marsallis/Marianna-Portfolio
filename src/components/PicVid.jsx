@@ -26,6 +26,7 @@ const PicVid = () => {
                     <video width="300" height="500" controls>
                         <source src={video1} type="video/mp4"/>
                         <source src={video1w}  type="video/webm"/>
+                        <source src="https://player.vimeo.com/video/745813035?h=5546cdd71b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Video Example 1 (1).mov"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
@@ -33,6 +34,7 @@ const PicVid = () => {
                     <video width="300" height="500" controls>
                         <source src={video2}  type="video/mp4"/>
                         <source src={video2w} type="video/webm"/>
+                        <source src="https://player.vimeo.com/video/745815435?h=e8e69d9ce3&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="video example 2.mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
