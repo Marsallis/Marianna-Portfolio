@@ -32,7 +32,7 @@ const PicVid = () => {
                 </div>
                 <div className="video2">
                     <video title="vimeo-player" width="300" height="500" controls>
-                        <source src="https://player.vimeo.com/video/745815435?h=e8e69d9ce3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="video example 2.mp4"/>
+                        <source src="https://player.vimeo.com/video/745815435?h=e8e69d9ce3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="video example 2.mp4" type="video/mp4"/>
                         <source src={video2}  type="video/mp4"/>
                         <source src={video2w} type="video/webm"/>
                         Your browser does not support the video tag.
