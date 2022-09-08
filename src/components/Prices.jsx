@@ -32,7 +32,7 @@ const Prices = () => {
             </div>
             <div className="single_media_pricing">
                 <div>
-                    <h3>UGC Video Prices</h3>
+                    <h3>UGC VIDEO PRICES</h3>
                     <div className="pricing_list">
                         <p>1 UGC VIDEO</p>
                         <p>$150</p>
@@ -59,7 +59,7 @@ const Prices = () => {
                 </div>
             </div>
             <div className="disclaimer">
-                <p>Other bundle options available. Please email for details!</p>
+                <p>*Other bundle options available. Please email for details!*</p>
             </div>
         </div>
     )
