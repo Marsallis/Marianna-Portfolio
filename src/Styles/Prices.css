@@ -1,0 +1,28 @@
+.container {
+    padding-top: 10%;
+    background-color: rgb(255, 125, 147);
+}
+
+.pricing_header {
+    text-align: center;
+}
+
+.pricing_header h2 {
+    font-size: 75px;
+}
+
+.bundle_pricing {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 5%;
+    justify-content: space-around;
+    max-width: 75%;
+}
+
+.single_media_pricing {
+    padding-top: 5%;
+    justify-content: space-around;
+    margin: 0 auto;
+    display: flex;
+    max-width: 70%;
+}
