@@ -1,6 +1,7 @@
 .container {
     padding-top: 10%;
     background-color: rgb(255, 125, 147);
+    font-family: 'Playfair Display', serif;
 }
 
 .pricing_header {
@@ -9,6 +10,25 @@
 
 .pricing_header h2 {
     font-size: 75px;
+    color: white;
+}
+
+.bundle_box {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.bundle_box h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bundle_box h4 {
+    text-align: center;
+    padding: 55px 0 0px 0;
+    font-size: 20px;
 }
 
 .bundle_pricing {
@@ -16,7 +36,7 @@
     margin: 0 auto;
     padding-top: 5%;
     justify-content: space-around;
-    max-width: 75%;
+    max-width: 30%;
 }
 
 .single_media_pricing {
@@ -24,5 +44,77 @@
     justify-content: space-around;
     margin: 0 auto;
     display: flex;
-    max-width: 70%;
+    max-width: 50%;
+}
+
+.single_media_pricing h3 {
+    font-size: 40px;
+    color: white;
+    padding: 0 0 20px 0;
+}
+
+.pricing_list {
+    display: flex;
+    padding: 15px 5px 0 0;
+    justify-content: space-between;
+    font-size: 20px;
+    color: white;
+}
+
+.disclaimer {
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 2.5%;
+}
+
+.disclaimer p {
+    font-family: 'Playfair Display', serif;
+}
+
+
+@media screen and (max-width: 480px) {
+    .pricing_header h2 {
+        font-size: 45px;
+    }
+
+    .pricing_header p {
+        font-size: 12px;
+    }
+
+    .bundle_pricing {
+        max-width: 90%;
+    }
+
+    .bundle_box {
+        width: 100px;
+        height: 150px;
+    }
+
+    .bundle_box h4 {
+        text-align: center;
+        padding: 15px 0 0px 0;
+        font-size: 20px;
+    }
+
+    .bundle_box h3 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .single_media_pricing {
+        max-width: 90%;
+        display: block;
+        text-align: center;
+    }
+
+    .single_media_pricing h3 {
+        font-size: 30px;
+        color: white;
+        padding: 30px 0 20px 0;
+    }
+
+    .disclaimer {
+        font-size: 12px;
+    }
 }
