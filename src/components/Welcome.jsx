@@ -14,7 +14,7 @@ const Welcome = () => {
             </div>
             <div className="video">
                 <img src={template} className="template" width="535" height="820" alt="template" class="silhouette"/>
-                <video className="main_vid" width="455" height="950" alt="" autoPlay muted loop>
+                <video className="main_vid" width="455" height="950" alt="" autoplay="autoplay" muted loop="loop" defaultMuted playsInline oncontextmenu="return false;" preload="auto">
                     <source src={vid1} type="video/mp4"/>
                     <source src={video1} type="video/mp4"/>
                     <source src={video1w} type="video/webm"/>
