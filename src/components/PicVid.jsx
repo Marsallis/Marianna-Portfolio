@@ -31,7 +31,7 @@ const PicVid = () => {
             <h2>PAST VIDEO PROJECTS</h2>
             <div className="videos_section1">
                 <div className="video1">
-                    <video width="300" height="500" controls>
+                    <video width="300" height="500" controls playsInline oncontextmenu="return false;" preload="auto">
                         <source src={vid1} type="video/mp4"/>
                         <source src="https://player.vimeo.com/video/745813035?h=5546cdd71b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="Video Example 1 (1).mov"/>
                         <source src={video1} type="video/mp4"/>
@@ -40,7 +40,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video2">
-                    <video title="vimeo-player" width="300" height="500" controls>
+                    <video title="vimeo-player" width="300" height="500" controls playsInline oncontextmenu="return false;" preload="auto">
                         <source src={vid2} type="video/mp4"/>
                         <source src="https://player.vimeo.com/video/745815435?h=e8e69d9ce3" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="video example 2.mp4" type="video/mp4"/>
                         <source src={video2}  type="video/mp4"/>
@@ -49,7 +49,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video3">
-                    <video width="300" height="500" controls>
+                    <video width="300" height="500" controls playsInline oncontextmenu="return false;" preload="auto">
                         <source src={vid3} type="video/mp4"/>
                         <source src={video3}  type="video/mp4"/>
                         <source src={video3w} type="video/webm"/>
@@ -57,7 +57,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video4">
-                    <video width="300" height="500" controls>
+                    <video width="300" height="500" controls playsInline oncontextmenu="return false;" preload="auto">
                         <source src={vid4} type="video/mp4"/>
                         <source src={video4}  type="video/mp4"/>
                         <source src={video4w} type="video/webm"/>
@@ -67,7 +67,7 @@ const PicVid = () => {
             </div>
             <div className="videos_section2">
                 <div className="video5">
-                    <video width="300" height="500" controls>
+                    <video width="300" height="500" controls playsInline oncontextmenu="return false;" preload="auto">
                         <source src={vid5} type="video/mp4"/>
                         <source src={video5}  type="video/mp4"/>
                         <source src={video5w} type="video/webm"/>
@@ -75,7 +75,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video6">
-                    <video width="300" height="500" controls>
+                    <video width="300" height="500" controls playsInline oncontextmenu="return false;" preload="auto">
                         <source src={vid6} type="video/mp4"/>
                         <source src={video6}  type="video/mp4"/> 
                         <source src={video6w} type="video/webm"/>
@@ -83,7 +83,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video7">
-                    <video width="300" height="500" controls>
+                    <video width="300" height="500" controls playsInline oncontextmenu="return false;" preload="auto">
                         <source src={vid7} type="video/mp4"/>
                         <source src={video7}  type="video/mp4"/> 
                         <source src={video7w} type="video/webm"/>
@@ -91,7 +91,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video8">
-                    <video width="300" height="500" controls>
+                    <video width="300" height="500" controls playsInline oncontextmenu="return false;" preload="auto">
                         <source src={vid8} type="video/mp4"/>
                         <source src={video8}  type="video/mp4"/>
                         <source src={video8w} type="video/webm"/>
