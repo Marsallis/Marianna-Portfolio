@@ -1,11 +1,12 @@
 .pvcontainer {
     max-width: 100%;
     max-height: 100%;
-    padding-top: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .pvcontainer h2 {
-    max-width: 30%;
+    max-width: 40%;
     text-align: center;
     margin: 0 auto;
     color: black;
@@ -20,7 +21,7 @@
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .videos_section2 {
@@ -29,7 +30,7 @@
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 .video1 {

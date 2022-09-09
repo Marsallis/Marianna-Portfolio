@@ -17,7 +17,7 @@ const Navbar = () => {
           <a href="/">Home</a>
           <a href="#meet" class="btn" onClick={showNavbar} data-toggle="collapse">Meet The Creator</a>
           <a href="#video_section" class="btn" onClick={showNavbar} data-toggle="collapse">UGC Examples</a>
-          <a href="/#">Pricing</a>
+          <a href="#pricing_header" class="btn" onClick={showNavbar} data-toggle="collapse">Pricing</a>
           <a href="/#">Contact Me</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
