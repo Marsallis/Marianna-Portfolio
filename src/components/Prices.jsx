@@ -4,7 +4,7 @@ import "../Styles/Prices.css";
 
 const Prices = () => {
     return(
-        <div className="container">
+        <div className="pricing_container" id="pricing_container">
             <div className="pricing_header">
                 <div>
                     <h2>PRICING</h2>

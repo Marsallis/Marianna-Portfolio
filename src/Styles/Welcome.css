@@ -93,7 +93,7 @@
     .text {
         max-width: 100%;
         margin: auto;
-        padding-right: 0;
+        padding: 10% 0 0 20px;
     }
 
     .text h2 {
@@ -134,7 +134,8 @@
         flex-direction: column;
         justify-content: center;
         max-width: 100%;
-        padding-top: 20%;
+        padding-top: 10%;
+        padding-bottom: 5%;
     }
 
     .video img {

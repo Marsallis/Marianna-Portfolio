@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital@0;1&display=swap');
 
 .Meet {
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
 }
 
@@ -40,6 +40,11 @@
 
 
 @media screen and (max-width: 480px) {
+    .Meet {
+        padding-top: 30%;
+        padding-bottom: 5%;
+    }
+
     .greeting {
         font-size: 25px;
         max-width: 80%;
