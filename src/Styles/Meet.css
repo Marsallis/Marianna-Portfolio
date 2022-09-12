@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:ital@0;1&display=swap');
 
 .Meet {
-    padding-top: 10%;
+    margin-top: 5%;
     padding-bottom: 5%;
 }
 
@@ -13,8 +13,12 @@
     font-family: 'Playfair Display', serif;
     color: black;
     border: 3px solid rgb(255, 125, 147);
-    max-width: 40%;
+    width: auto;
     margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(255, 125, 147);
+    color: white;
 }
 
 .who-i-am {
@@ -25,15 +29,17 @@
 .who-i-am img{
     display: block;
     max-height: 600px;
-    padding-left: 25%;
+    margin-left: 25%;
+    border: 13px solid rgb(255, 125, 147);
 }
 
 .who-i-am p {
+    background-color: rgb(255, 125, 147);
     padding-left: 10%;
     text-align: center;
-    padding-top: 2%;
-    padding-right: 15%;
-    color: rgb(255, 125, 147);
+    padding-top: 5%;
+    padding-right: 10%;
+    color: white;
     font-size: 25px;
     max-width: 40%;
 } 
@@ -41,17 +47,17 @@
 
 @media screen and (max-width: 480px) {
     .Meet {
-        padding-top: 30%;
+        padding-top: 10%;
         padding-bottom: 5%;
     }
 
     .greeting {
         font-size: 25px;
-        max-width: 80%;
     }
 
     .who-i-am {
         flex-direction: column;
+        padding-top: 0%;
     }
 
     .who-i-am img{
@@ -66,6 +72,7 @@
         max-width: 100%;
         font-size: 20px;
         padding-top: 5%;
+        padding-bottom: 5%;
         margin: auto;
     }
 }

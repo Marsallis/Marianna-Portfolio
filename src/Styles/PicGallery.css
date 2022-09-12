@@ -1,22 +1,21 @@
 .pc-container {
-    padding-top: 5%;
-    max-width: 100%;
-    max-height: 100%;
-    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .header {
-    max-width: 40%;
     text-align: center;
     margin: 0 auto;
     color: black;
     font-family: 'Playfair Display', serif;
     font-size: 55px;
-    border: 3px solid rgb(255, 125, 147);
+    background-color: rgb(255, 125, 147);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
 }
 
 .pic_section1 {
-    padding-top: 10%;
     justify-content: space-around;
     display: flex;
     margin: 0 auto;
@@ -33,40 +32,73 @@
     max-width: 60%;
 }
 
+.pic1 {
+    margin-top: 8%;
+    border: 13px solid rgb(255, 125, 147);
+}
+
+.pic2 {
+    margin-top: 8%;
+    border: 13px solid rgb(255, 125, 147);
+}
+
+.pic3 {
+    margin-top: 8%;
+    border: 13px solid rgb(255, 125, 147);
+}
+.pic4 {
+    margin-top: 8%;
+    border: 13px solid rgb(255, 125, 147);
+}
+.pic5 {
+    margin-top: 8%;
+    border: 13px solid rgb(255, 125, 147);
+}
+.pic6 {
+    margin-top: 8%;
+    border: 13px solid rgb(255, 125, 147);
+}
+.pic7 {
+    margin-top: 8%;
+    border: 13px solid rgb(255, 125, 147);
+}
 
 @media screen and (max-width: 480px) {
 
     .pc-container {
         padding-top: 5%;
-        padding-bottom: 30%;
+        padding-bottom: 8%;
         max-width: 100%;
         max-height: 100%;
     }
     
     .pc-container h2 {
-        max-width: 80%;
         font-size: 25px;
+    }
+
+    .pic_section1 {
+        margin-top: 10%;
     }
 
 
     .pic2 {
-        margin-top: 10%;
+        margin-top: 8%;
     }
 
     .pic3 {
-        margin-top: 10%;
+        margin-top: 8%;
     }
     .pic4 {
-        margin-top: 10%;
+        margin-top: 8%;
     }
     .pic5 {
-        margin-top: 10%;
+        margin-top: 8%;
     }
     .pic6 {
-        margin-top: 10%;
+        margin-top: 8%;
     }
     .pic7 {
-        margin-top: 10%;
+        margin-top: 8%;
     }
 
 }

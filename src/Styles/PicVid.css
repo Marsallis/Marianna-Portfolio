@@ -1,22 +1,24 @@
 .pvcontainer {
     max-width: 100%;
     max-height: 100%;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .pvcontainer h2 {
-    max-width: 40%;
     text-align: center;
     margin: 0 auto;
     color: black;
     font-family: 'Playfair Display', serif;
     font-size: 55px;
-    border: 3px solid rgb(255, 125, 147);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: rgb(255, 125, 147);
+    color: white;
 }
 
 .videos_section1 {
-    padding-top: 10%;
+    padding-top: 5%;
     justify-content: space-around;
     display: flex;
     margin: 0 auto;
@@ -34,47 +36,46 @@
 }
 
 .video1 {
-    border: 3px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 125, 147);
 }
 
 .video2 {
-    border: 3px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 125, 147);
 }
 
 .video3 {
-    border: 3px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 125, 147);
 }
 
 .video4 {
-    border: 3px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 125, 147);
 }
 
 .video5 {
-    border: 3px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 125, 147);
 }
 
 .video6 {
-    border: 3px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 125, 147);
 }
 
 .video7 {
-    border: 3px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 125, 147);
 }
 
 .video8 {
-    border: 3px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 125, 147);
 }
 
 
 @media screen and (max-width: 480px) {
 
     .pvcontainer {
-        padding-top: 30%;
-        padding-bottom: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 
     .pvcontainer h2 {
-        max-width: 80%;
         font-size: 25px;
     }
 
