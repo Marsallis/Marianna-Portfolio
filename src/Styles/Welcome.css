@@ -12,7 +12,7 @@
 .text {
     max-height: 100%;
     max-width: 50%;
-    padding-bottom: 5%;
+    margin-bottom: 5%;
     margin: 0 auto;
     box-sizing: content-box;
     display: block;
@@ -92,50 +92,54 @@
 
     .text {
         max-width: 100%;
-        margin: auto;
-        padding: 10% 0 0 20px;
+        text-align: center;
+        padding-right: 0%;
+        justify-content: center;
     }
 
     .text h2 {
         font-family: 'Dancing Script', cursive;
-        font-family: 'Playfair Display', serif;
         color: black;
-        font-size: 7vw;
-        width: 80%;
+        font-size: 45px;
         height: 100%;
-        align-items: center;
+        width: 90%;
         margin: 0 auto;
-        font-weight: bold;
+        font-weight: 100;
         text-align: center;
         display: block;
-        padding-top: 25%;
-        margin: 0 auto;
+        margin-top: 25%;
+        padding-left: 0%;
+        float: none;
     }
 
     .text h3 {
-        color: black;
-        font-size: 9vw;
         width: 100%;
         height: 100%;
+        margin-top: 15%;
+    }
+
+    .text h3 a {
+        color: black;
+        font-size:  50px;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
         font-weight: bold;
         text-align: center;
-        padding-top: 15%;
         font-family: 'Dancing Script', cursive;
-        font-family: 'Playfair Display', serif;
-        float: left;
+        float: none;
     }
 
     .video {
-        margin: 0;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         max-width: 100%;
-        padding-top: 10%;
-        padding-bottom: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding-left: 0%;
+        padding-right: 0%;
     }
 
     .video img {
