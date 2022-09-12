@@ -40,4 +40,8 @@ a {
     .footer-container {
         padding-top: 0%;
     }
+
+    a {
+        font-size: 30px;
+    }
 }

@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="props"><span>&#169;</span> Website Made By Faircloth Freelancing LLC</div> 
             <div className="icons">
                 <a href="https://www.instagram.com/marianna_ugc/" class="fa-ig"><AiFillCamera/></a>
-                <a href="https://www.instagram.com/marianna_ugc/" class="fa-mail"><AiFillMail/></a>
+                <a href="mailto:marianna.ugcmarketing@gmail.com" class="fa-mail"><AiFillMail/></a>
             </div>
         </div>
     )
