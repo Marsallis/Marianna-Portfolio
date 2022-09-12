@@ -21,14 +21,13 @@
 
 .text h2 {
     font-family: 'Dancing Script', cursive;
-    font-family: 'Playfair Display', serif;
     color: black;
-    font-size: 2.5vw;
+    font-size: 3vw;
     width: 60%;
     height: 100%;
     align-items: center;
     margin: 0 auto;
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
     display: block;
     padding-top: 25%;
@@ -36,7 +35,7 @@
     float: left;
 }
 
-.text h3 {
+.text h3 a{
     color: black;
     font-size: 2.5vw;
     width: 75%;
@@ -44,9 +43,9 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
-    padding-top: 15%;
+    margin-top: 15%;
     font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
     float: left;
@@ -54,7 +53,8 @@
 
 .video {
     display: flex;
-    padding-left: 15%;
+    padding-left: 7%;
+    padding-top: 5%;
 }
 
 .video img {

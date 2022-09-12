@@ -5,6 +5,8 @@ import Meet from './components/Meet';
 import PicVid from './components/PicVid';
 import Pics from './components/PicGallery';
 import Prices from './components/Prices';
+import ContactUs from './components/Contact.jsx';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <PicVid />
         <Pics />
         <Prices />
+        <ContactUs />
+        <Footer />
     </div>
   );
 }

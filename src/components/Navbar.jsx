@@ -18,7 +18,7 @@ const Navbar = () => {
           <a href="#meet" class="btn" onClick={showNavbar} data-toggle="collapse">Meet The Creator</a>
           <a href="#video_section" class="btn" onClick={showNavbar} data-toggle="collapse">UGC Examples</a>
           <a href="#pricing_container" class="btn" onClick={showNavbar} data-toggle="collapse">Pricing</a>
-          <a href="/#">Contact Me</a>
+          <a href="#form-ctnr" class="btn" onClick={showNavbar} data-toggle="collapse">Contact Me</a>
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>
             <FaTimes />
           </button>

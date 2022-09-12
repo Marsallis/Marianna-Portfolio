@@ -1,0 +1,272 @@
+.form-container {
+        padding-top: 8%;
+        padding-bottom: 5%;
+}
+
+
+
+.form1 {        
+        background-color: rgb(255, 125, 147);
+        color: white;
+        margin: 0 auto;
+        width: 1000px;
+        height: 700px;
+        border-radius: 30px;
+        font-family: 'Playfair Display', serif;
+        letter-spacing: 0.0215m;
+        word-spacing: 0.001em;
+        display: flex;
+        flex-direction: column;
+
+
+
+}
+
+.form-section1 {
+    width: 50%;
+    height: 700px;
+    float: left;
+    padding-top: 6%;
+    font-size: 28px;
+}
+
+.form-header {
+    font-size: 40px;
+    padding-left: 10%;
+}
+
+.form-name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.form-brand {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.form-email {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.form-name label {
+    padding-bottom: 15px;
+}
+
+.form-email label {
+    padding-bottom: 15px;
+}
+
+.form-brand label {
+    padding-bottom: 15px;
+}
+
+.form-name input {
+    height: 40px;
+    padding-left: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 200;
+    width: 80%;
+}
+    
+.form-brand input {
+    height: 40px;
+    padding-left: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 200;
+    width: 80%;
+}
+
+
+.form-email input {
+    height: 40px;
+    padding-left: 10px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 200;
+    width: 80%;
+}
+
+
+.form-message-btn {
+    width: 50%;
+    height: 700px;
+    float: right;
+}
+
+.form-message {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.form-message label {
+    padding-top: 30%;
+    padding-bottom: 20px;
+}
+
+.form-message-input * {
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 15px;
+    border-radius: 30px;
+    height: 280px;
+    width: 85%;
+}
+
+.form-butn {
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    background-color: green;
+}
+
+.form-butn:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.form-btn-div {
+    padding-top: 40px;
+    padding-left: 20%;
+}
+
+@media screen and (max-width: 480px) {
+    .form-container {
+        padding-bottom: 0%;
+    }
+
+    .form1 {
+        max-width: fit-content;
+        margin-top: 5%;
+        border-radius: 0%;
+        height: fit-content;
+    }
+    .form-section1 {
+        width: 100%;
+    }
+
+    .form-message {
+        font-size: 28px;
+    }
+
+    .form-message-btn {
+        width: 100%;
+        height: auto;
+        margin-top: -60%;
+        margin-bottom: 20%;
+        text-align: center;
+    }
+    .form-message-input * {
+        font-size: 20px;
+        padding-top: 25px;
+        height: 300px;
+        max-width: 100%;  
+    }
+
+    .form-btn-div {
+        text-align: center;
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .form-message label {
+        text-align: center;
+    }
+
+    .form-butn {
+        width: 60%;
+    }
+
+
+
+}
+
+/*
+
+    form h2 {
+        padding: 3%;
+        float: left;
+        font-size: 40px;
+    }
+
+    form input {
+        border-radius: 10px;
+        width: 250px;
+        height: 50px;
+    }
+
+    .form-name {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 13%;
+        margin-left: -15%;
+    }
+
+    .form-name label{
+        text-align: left;
+        padding-bottom: 3%;
+        font-size: 25px;
+    }
+
+
+    .form-email {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 25%;
+        margin-left: -22.3%;
+    }
+
+    .form-email label{
+        text-align: left;
+        padding-bottom: 3%;
+        font-size: 25px;
+    }
+
+    .form-message {
+        float: right;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-right: 25%;
+        margin-top: 5%;
+    }
+
+    .form-message label{
+        text-align: left;
+        padding-bottom: 3%;
+        font-size: 25px;
+    }
+
+    .form-message textarea {
+        width: 400px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    button {
+        color: pink;
+        width: 130px;
+        height: 35px;
+        
+    }
+
+    */

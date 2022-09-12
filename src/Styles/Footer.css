@@ -1,0 +1,43 @@
+.footer-container {
+    background-color: rgb(255, 125, 147);
+    width: 100%;
+    padding-top: 4%;
+    max-height: 10%;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.props {
+    justify-content: center;
+    width: auto;
+    height: 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    margin: auto;
+    padding-top: 1%;
+}
+
+.icons {
+    justify-content: center;
+    width: auto;
+    margin: auto;
+    margin-top: 3%;
+
+}
+
+a {
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px 0 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .footer-container {
+        padding-top: 0%;
+    }
+}
