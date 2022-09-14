@@ -52,7 +52,7 @@ function ContactUs(props){
                     <div className='form-message'>
                         <label>Message</label>
                         <div className='form-message-input'>
-                            <textarea name="message"/>
+                            <textarea name="message" required/>
                         </div>
                         <div className="form-btn-div">
                             <button className='form-butn' type="submit" value="Submit">SUBMIT</button>
