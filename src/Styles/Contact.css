@@ -74,6 +74,7 @@
     font-size: 20px;
     font-weight: 200;
     width: 80%;
+    position: relative;
 }
     
 .form-brand input {
@@ -83,6 +84,7 @@
     font-size: 20px;
     font-weight: 200;
     width: 80%;
+    position: relative;
 }
 
 
@@ -93,6 +95,7 @@
     font-size: 20px;
     font-weight: 200;
     width: 80%;
+    position: relative;
 }
 
 
@@ -192,6 +195,34 @@
         width: 60%;
     }
 
+    .form-name input {
+        height: 50px;
+        padding-left: 10px;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: 200;
+        width: 80%;
+    }
+        
+    .form-brand input {
+        height: 50px;
+        padding-left: 10px;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        font-weight: 200;
+        width: 80%;
+    }
+    
+    
+    .form-email input {
+        height: 50px;
+        padding-left: 10px;
+        font-family: 'Playfair Display', serif;
+        font-size: 24px;
+        font-weight: 200;
+        width: 80%;
+        position: relative;
+    }
 
 
 }

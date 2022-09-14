@@ -1,10 +1,19 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import "../Styles/Contact.css";
+import { useState } from 'react';
 
-export const ContactUs = () => {
+
+const Result = () => {
+    return(
+        <p>Your message has been successfully sent. I will contact you soon</p>
+    );
+  };
+
+function ContactUs(props){
   const form = useRef();
 
+  const [result, showResult] = useState(false);
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -14,6 +23,8 @@ export const ContactUs = () => {
       }, (error) => {
           console.log(error.text);
       });
+    e.target.reset();
+    showResult(true);
   };
 
   return (
@@ -26,15 +37,15 @@ export const ContactUs = () => {
                     </div>
                     <div className='form-name'>
                         <label>Name</label>
-                        <input type="text" name="user_name" />
+                        <input type="text" name="user_name" required/>
                     </div>
                     <div className='form-brand'>
                         <label>Brand Name</label>
-                        <input type="text" name="user_brand" /> 
+                        <input type="text" name="user_brand" required/> 
                     </div>
                     <div className='form-email'>
                         <label>Email</label>
-                        <input type="email" name="user_email" /> 
+                        <input type="email" name="user_email" required/> 
                     </div>
                 </section>
                 <section className='form-message-btn'>
@@ -45,11 +56,10 @@ export const ContactUs = () => {
                         </div>
                         <div className="form-btn-div">
                             <button className='form-butn' type="submit" value="Submit">SUBMIT</button>
+                            <div className='row'>{result ? <Result /> : null}</div>
                         </div>
                     </div>
                 </section>
-                
-                
             </form>
         </div>
     </div>
