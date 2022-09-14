@@ -20,9 +20,9 @@
 }
 
 .text h2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Playfair Display', serif;
     color: black;
-    font-size: 3vw;
+    font-size: 4rem;
     width: 60%;
     height: 100%;
     align-items: center;
@@ -30,22 +30,22 @@
     font-weight: 500;
     text-align: center;
     display: block;
-    padding-top: 25%;
-    padding-left: 15%;
+    margin-top: 25%;
+    margin-left: 5%;
     float: left;
 }
 
 .text h3 a{
     color: black;
-    font-size: 2.5vw;
-    width: 75%;
+    font-size: 5rem;
+    width: 65%;
     height: 100%;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
     font-weight: 400;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 10%;
     font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
     float: left;
@@ -76,7 +76,7 @@
 }
 
 .text a:hover {
-    font-size: 80px;
+    font-size: 6rem;
 }
 
 
@@ -98,16 +98,16 @@
     }
 
     .text h2 {
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
         color: black;
-        font-size: 45px;
+        font-size: 35px;
         height: 100%;
         width: 90%;
         margin: 0 auto;
         font-weight: 100;
         text-align: center;
         display: block;
-        margin-top: 25%;
+        margin-top: 35%;
         padding-left: 0%;
         float: none;
     }
@@ -124,9 +124,8 @@
         align-items: center;
         justify-content: center;
         margin: 0 auto;
-        font-weight: bold;
         text-align: center;
-        font-family: 'Dancing Script', cursive;
+        font-family: 'Playfair Display', serif;
         float: none;
     }
 
