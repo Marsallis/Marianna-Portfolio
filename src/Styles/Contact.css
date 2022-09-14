@@ -1,25 +1,22 @@
 .form-container {
-        padding-top: 8%;
+        padding-top: 5%;
         padding-bottom: 5%;
 }
 
 
 
 .form1 {        
-        background-color: rgb(255, 125, 147);
-        color: white;
-        margin: 0 auto;
-        width: 1000px;
-        height: 700px;
-        border-radius: 30px;
-        font-family: 'Playfair Display', serif;
-        letter-spacing: 0.0215m;
-        word-spacing: 0.001em;
-        display: flex;
-        flex-direction: column;
-
-
-
+    background-color: rgb(255, 102, 153);
+    color: white;
+    margin: 0 auto;
+    width: 1000px;
+    height: 700px;
+    border-radius: 30px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.0215m;
+    word-spacing: 0.001em;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-section1 {

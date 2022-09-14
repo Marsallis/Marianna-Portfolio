@@ -13,7 +13,7 @@
     font-size: 55px;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: rgb(255, 125, 147);
+    background-color: rgb(255, 102, 153);
     color: white;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .videos_section2 {
-    padding-top: 10%;
+    padding-top: 5%;
     justify-content: space-around;
     display: flex;
     margin: 0 auto;
@@ -36,35 +36,35 @@
 }
 
 .video1 {
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 .video2 {
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 .video3 {
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 .video4 {
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 .video5 {
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 .video6 {
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 .video7 {
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 .video8 {
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 

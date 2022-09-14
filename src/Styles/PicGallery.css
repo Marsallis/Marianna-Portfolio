@@ -9,7 +9,7 @@
     color: black;
     font-family: 'Playfair Display', serif;
     font-size: 55px;
-    background-color: rgb(255, 125, 147);
+    background-color: rgb(255, 102, 153);
     padding-top: 3%;
     padding-bottom: 3%;
     color: white;
@@ -24,7 +24,6 @@
 }
 
 .pic_section2 {
-    padding-top: 5%;
     justify-content: space-around;
     display: flex;
     margin: 0 auto;
@@ -34,33 +33,33 @@
 
 .pic1 {
     margin-top: 8%;
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 .pic2 {
     margin-top: 8%;
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 .pic3 {
     margin-top: 8%;
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 .pic4 {
     margin-top: 8%;
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 .pic5 {
     margin-top: 8%;
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 .pic6 {
     margin-top: 8%;
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 .pic7 {
     margin-top: 8%;
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 @media screen and (max-width: 480px) {

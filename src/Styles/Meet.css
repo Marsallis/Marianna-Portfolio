@@ -2,7 +2,7 @@
 
 .Meet {
     margin-top: 5%;
-    padding-bottom: 5%;
+    margin-bottom: 5%;
 }
 
 
@@ -12,12 +12,12 @@
     font-family: 'Dancing Script', cursive;
     font-family: 'Playfair Display', serif;
     color: black;
-    border: 3px solid rgb(255, 125, 147);
+    border: 3px solid rgb(255, 102, 153);
     width: auto;
     margin: 0 auto;
     padding-top: 3%;
     padding-bottom: 3%;
-    background-color: rgb(255, 125, 147);
+    background-color: rgb(255, 102, 153);
     color: white;
 }
 
@@ -30,18 +30,21 @@
     display: block;
     max-height: 600px;
     margin-left: 25%;
-    border: 13px solid rgb(255, 125, 147);
+    border: 13px solid rgb(255, 102, 153);
 }
 
 .who-i-am p {
-    background-color: rgb(255, 125, 147);
+    background-color: rgb(255, 102, 153);
     padding-left: 10%;
     text-align: center;
     padding-top: 5%;
     padding-right: 10%;
     color: white;
-    font-size: 25px;
+    font-size: 24px;
     max-width: 40%;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.02em;
+    word-spacing: 0.3em;
 } 
 
 
