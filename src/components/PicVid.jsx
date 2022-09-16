@@ -24,6 +24,14 @@ import vid7 from "../assets/Vid7.m4v";
 import video8 from "../assets/video8.mp4";
 import video8w from "../assets/video8.webm";
 import vid8 from "../assets/Vid8.m4v";
+import poster1 from "../assets/poster1.PNG";
+import poster2 from "../assets/poster2.PNG";
+import poster3 from "../assets/poster3.PNG";
+import poster4 from "../assets/poster4.PNG";
+import poster5 from "../assets/poster5.PNG";
+import poster6 from "../assets/poster6.PNG";
+import poster7 from "../assets/poster7.PNG";
+import poster8 from "../assets/poster8.PNG";
 
 const PicVid = () => {
     return(
@@ -31,7 +39,7 @@ const PicVid = () => {
             <h2>PAST VIDEO PROJECTS</h2>
             <div className="videos_section1">
                 <div className="video1">
-                    <video width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
+                    <video poster={poster1} width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
                         <source src={vid1} type="video/mp4"/>
                         <source src="https://player.vimeo.com/video/745813035?h=5546cdd71b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="Video Example 1 (1).mov"/>
                         <source src={video1} type="video/mp4"/>
@@ -40,7 +48,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video2">
-                    <video title="vimeo-player" width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
+                    <video poster={poster2} title="vimeo-player" width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
                         <source src={vid2} type="video/mp4"/>
                         <source src="https://player.vimeo.com/video/745815435?h=e8e69d9ce3" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="video example 2.mp4" type="video/mp4"/>
                         <source src={video2}  type="video/mp4"/>
@@ -49,7 +57,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video3">
-                    <video width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
+                    <video poster={poster3} width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
                         <source src={vid3} type="video/mp4"/>
                         <source src={video3}  type="video/mp4"/>
                         <source src={video3w} type="video/webm"/>
@@ -57,7 +65,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video4">
-                    <video width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
+                    <video poster={poster4} width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
                         <source src={vid4} type="video/mp4"/>
                         <source src={video4}  type="video/mp4"/>
                         <source src={video4w} type="video/webm"/>
@@ -67,7 +75,7 @@ const PicVid = () => {
             </div>
             <div className="videos_section2">
                 <div className="video5">
-                    <video width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
+                    <video poster={poster5} width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
                         <source src={vid5} type="video/mp4"/>
                         <source src={video5}  type="video/mp4"/>
                         <source src={video5w} type="video/webm"/>
@@ -75,7 +83,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video6">
-                    <video width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
+                    <video poster={poster6} width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
                         <source src={vid6} type="video/mp4"/>
                         <source src={video6}  type="video/mp4"/> 
                         <source src={video6w} type="video/webm"/>
@@ -83,7 +91,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video7">
-                    <video width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
+                    <video poster={poster7} width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
                         <source src={vid7} type="video/mp4"/>
                         <source src={video7}  type="video/mp4"/> 
                         <source src={video7w} type="video/webm"/>
@@ -91,7 +99,7 @@ const PicVid = () => {
                     </video>
                 </div>
                 <div className="video8">
-                    <video width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
+                    <video poster={poster8} width="300" height="500" controls playsInline onContextMenu="return false;" preload="none" autoplay muted>
                         <source src={vid8} type="video/mp4"/>
                         <source src={video8}  type="video/mp4"/>
                         <source src={video8w} type="video/webm"/>
